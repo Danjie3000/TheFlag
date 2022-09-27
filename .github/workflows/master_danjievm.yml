@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'DanjieVM'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8DCDD784FED41C89169597CA8CA353C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_04F518D86EF24D1099496D6B61E494EA }}
           package: '*.jar'
