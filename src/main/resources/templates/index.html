@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>index</title>
+</head>
+<body>
+<a href=""> <h2>Greetings app</h2></a>
+<form method="post" action="/sendPostGreeting">
+  <input type="submit" value="Send Greeting">
+</form>
+
+<p>Answer:</p>
+<h3 th:text="${greeting}"></h3>
+
+</body>
+</html>
