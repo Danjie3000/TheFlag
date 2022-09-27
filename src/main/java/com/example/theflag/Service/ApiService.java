@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ApiService {
-    final String API = "http://localhost:8081/findFlag"; // find ud  af, hvilket IP + port
+    final String API = "https://gruppecicd.azurewebsites.net/findFlag"; // find ud af, hvilket IP + port
     RestTemplate restTemplate = new RestTemplate();
     public Flag requestFlag(FlagRequest req) {
         System.out.println("sending request...");
