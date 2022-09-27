@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+/*@RestController
 public class UserController { // Mathias.
 
     @PostMapping("/findFlag")
@@ -16,5 +16,4 @@ public class UserController { // Mathias.
         flag.setMessage("Flag is here! ##### " + flagRequest.getRequest() );
         return new ResponseEntity<>(flag, HttpStatus.OK);
     }
-
-}
+}*/
